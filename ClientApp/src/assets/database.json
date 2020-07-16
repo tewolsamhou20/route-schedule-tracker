@@ -1,0 +1,65 @@
+{
+  "busStops": [
+    {
+      "id": 1,
+      "name": "Cristal",
+      "city": "Houston Anderson I",
+      "routes": "1,2,3"
+    }
+    ,
+    {
+      "id": 2,
+      "name": "Florence",
+      "city": "Houston Bashirian",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 3,
+      "name": "Murphy",
+      "city": "Houston Lowe",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 4,
+      "name": "Jaydon",
+      "city": "Houston Bergnaum",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 5,
+      "name": "Kari",
+      "city": "Mrs. Houston Schulist",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 6,
+      "name": "Candelario",
+      "city": "Houston Emmerich",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 7,
+      "name": "Ernestina",
+      "city": "Houston Cole",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 8,
+      "name": "Laverne",
+      "city": "Houston Sipes",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 9,
+      "name": "Shakira",
+      "city": "Houston O'Kon",
+      "routes": "1,2,3"
+    },
+    {
+      "id": 10,
+      "name": "Quentin",
+      "city": "Houston Parker",
+      "routes": "1,2,3"
+    }
+  ]
+}

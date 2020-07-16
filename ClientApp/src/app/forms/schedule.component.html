@@ -1,0 +1,35 @@
+<div>Bus Route Schedule Viewer.</div>
+<br />
+<div>
+  <button type="button" (click)="multipleCondition = !multipleCondition">[Click] - To Select or View scheduled route arrival</button>
+</div>
+<h3>Selected Route: {{ form.get('multiselect').value }}</h3>
+<hr>
+
+<form [formGroup]="form">
+
+  <!--<div>&lt;select multiple&gt;</div>
+  <div class="success">OK</div>
+  <select formControlName="multiselect" multiple>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select><br /><br />-->
+
+  <div>Selecte a Route </div>
+  <div class="error"></div>
+  <select formControlName="multiselect" [multiple]="multipleCondition">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select><br /><br />
+
+  <div>Bus Arrival Time List</div>
+  <div class="error"></div>
+  <select formControlName="multiselect" [attr.multiple]="multipleCondition2">
+    <option value="1">00:00:00:</option>
+    <option value="2">00:00:00</option>
+    <option value="3">00:00:00</option>
+  </select><br />
+
+</form>

@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "--resolveJsonModule": true,
+    "--esModuleInterop": true
+  },
+  "angularCompilerOptions": {
+    "entryModule": "app/app.server.module#AppServerModule",
+    "--resolveJsonModule": true,
+    "--esModuleInterop": true
+  }
+}

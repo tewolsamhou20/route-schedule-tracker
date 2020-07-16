@@ -1,0 +1,16 @@
+
+p {
+  font-family: Lato;
+}
+
+select {
+  width: 200px;
+}
+
+.success {
+  color: darkgreen;
+}
+
+.error {
+  color: red;
+}
